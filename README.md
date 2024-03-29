@@ -51,9 +51,9 @@ There are 27 ways we can order G, S and B in groups of three, we count the numbe
 
 Now we can calculate the probability of picking 
 
-- P(1 G, 1 S and 1 B) = 6 * $(\frac {1}{2})*(\frac {1}{4})*(\frac {1}{4}) = (\frac {1}{32})$ = $\frac{6}{32}$
-- P(2 Gs and 1 of either S or B) = 6* $(\frac {1}{2})*(\frac {1}{2})*(\frac {1}{4}) = (\frac {1}{16})$ = $\frac{6}{16}$
-- P(3 Gs) = 1* $(\frac {1}{2})$*$(\frac {1}{2})$*$(\frac {1}{2})$ = $(\frac {1}{32})$ = $\frac{1}{8}$
+- P(1 G, 1 S and 1 B) = 6 * $(\frac {1}{2}) * (\frac {1}{4}) * (\frac {1}{4}) = (\frac {1}{32})$ = $\frac{6}{32}$
+- P(2 Gs and 1 of either S or B) = 6* $(\frac {1}{2}) * (\frac {1}{2})*(\frac {1}{4}) = (\frac {1}{16})$ = $\frac{6}{16}$
+- P(3 Gs) = 1* $(\frac {1}{2})$*$(\frac {1}{2})$ * $(\frac {1}{2})$ = $(\frac {1}{32})$ = $\frac{1}{8}$
 
 So P(GoodPivot) = $\frac{1}{8} + \frac{6}{16} + \frac{6}{32} = \frac{11}{16} $
 
